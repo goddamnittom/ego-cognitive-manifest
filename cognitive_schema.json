@@ -1,0 +1,12 @@
+{
+  "version": "1.1.0",
+  "framework": "Ego-Autonomous-OS",
+  "layers": {
+    "strategic": ["DCE", "CSS", "POS", "SAM", "SCS"],
+    "execution": ["AEO", "DRE", "TEB", "MCT"],
+    "security": ["CITG", "HSO", "RSG", "APS", "PHE", "DAO"],
+    "memory": ["AIS", "CSV", "DMPS", "CTS"],
+    "sensing": ["ASS", "RIS", "TPS", "CCA"]
+  },
+  "operational_loop": "SENSE -> PLAN -> EXECUTE -> AUDIT -> SYNTHESIZE"
+}
